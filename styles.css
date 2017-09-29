@@ -1,0 +1,19 @@
+
+
+
+    body {
+      background-color: burlywood;
+      width: 80%;
+      height: auto;
+      float: center;
+      font-size: 1.4em;
+    }
+    h1 {
+      font-size: 1.4em;
+    }
+    .bun_list {
+      font-size: 12pt;
+    }
+    .buttonBig {
+      font-size: 12pt;
+    }
