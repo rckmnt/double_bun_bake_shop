@@ -1,6 +1,7 @@
+/* Buntastic CSS */
 
 
-
+/* Main html Tags */
     body {
       background-color: burlywood;
       width: 80%;
@@ -20,6 +21,9 @@
     h1 {
       font-size: 1.4em;
     }
+
+/* Classes */
+
     .bun_list {
       font-size: 12pt;
     }
