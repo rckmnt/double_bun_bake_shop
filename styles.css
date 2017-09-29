@@ -21,7 +21,9 @@
     h1 {
       font-size: 1.4em;
     }
-
+    img {
+      size: fill;
+    }
 /* Classes */
 
     .bun_list {
