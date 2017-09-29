@@ -5,8 +5,17 @@
       background-color: burlywood;
       width: 80%;
       height: auto;
-      float: center;
+      margin: auto;
       font-size: 1.4em;
+      font-family: Roboto;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 1em;
+    }
+    footer{
+      font-size: 0.8em;
+      float: center;
     }
     h1 {
       font-size: 1.4em;
@@ -14,6 +23,17 @@
     .bun_list {
       font-size: 12pt;
     }
-    .buttonBig {
-      font-size: 12pt;
+    .bun_row {
+      width: 100%;
+      float: left;
+      overflow: auto;
+    }
+    .a_bun{
+      background-color: moccasin;
+      float: left;
+      overflow: auto;
+      border-top: 60px;
+      border: 10px;
+      margin: 10px;
+      width: 30%;
     }
