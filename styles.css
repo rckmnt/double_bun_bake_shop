@@ -9,6 +9,7 @@
       margin: auto;
       font-size: 1.4em;
       font-family: Roboto;
+      color: black;
     }
     p {
       font-family: Roboto;
@@ -26,6 +27,22 @@
     }
 /* Classes */
 
+    .menu{
+      overflow: hidden;
+    }
+    .menu a {
+      float: left;
+      display: block;
+      color: saddlebrown;
+      text-decoration: bold;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
     .bun_list {
       font-size: 12pt;
     }
