@@ -1,0 +1,25 @@
+Deliverables
+
+X - Desktop
+X - Consistent Look and Feel
+
+Required pages:
+    ○ Home page
+    ○ Product browsing page that shows the variety of items the store has
+    ○ Product detail page
+
+Paper Prototype: (6 pts)
+    X - A low-fidelity rough sketch for each one of the 3 required pages. (2 pts)
+    ● A high-fidelity digital mockup for each of the 3 required pages. This should not be a wireframe, should show all details like color and font choices. (3pts)
+    ● Mockup shows generally consistent look and feel across all 3 required pages i.e.
+    color and font choices are consistent (1pt)
+    Web HTML/CSS Prototype: (12 pts)
+    ● At least 1 CSS file
+    ● An HTML file for each of the 3 required pages
+    ● Each of the pages renders without error
+    ● From the Home page, the other 2 pages should be reachable with an <href> tag link
+    ● The web prototype should look as close to your high-fidelity digital mockup as possible
+
+Reflection: (2 pts)
+    What challenges or bugs you encountered and how did you overcome the
+    challenges?

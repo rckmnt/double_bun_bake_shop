@@ -15,48 +15,62 @@
 
 /* Main html Tags */
     body {
-      background-color: burlywood;
+      background-color: white;
       width: 80%;
       height: auto;
       margin: auto;
       font-size: 1.4em;
-      font-family: Roboto;
       color: black;
+      font-family: 'Merriweather', 'Roboto', serif;
     }
     p {
-      font-family: Roboto;
-      font-size: 1em;
+      font-size: 14px;
+    }
+
+    header{
+      font-size: 20px;
+      text-align: center;
+    }
+
+/*    Menu    */
+    header, nav{
+      text-align: center;
+      background: white;
+      margin: 20px 0;
+      padding: auto;
+    }
+    nav a {
+      /*text-decoration: underline;*/
+      color: white;
+      padding: 8px 20px;;
     }
     footer{
       font-size: 0.8em;
       margin: auto;
       text-align: center;
-
     }
     h1 {
       font-size: 1.4em;
     }
-    img {
-      size: fill;
-    }
-/* Classes */
-
     .menu{
       overflow: hidden;
     }
     .menu a {
-      float: left;
       display: block;
-      color: saddlebrown;
+      color: black;
+      font-weight: bold;
       text-decoration: bold;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
-    .topnav a:hover {
+    nav a:hover {
       background-color: #ddd;
       color: black;
     }
+
+/* Classes */
+
     .bun_list {
       font-size: 12pt;
     }
@@ -66,11 +80,17 @@
       overflow: auto;
     }
     .a_bun{
-      background-color: moccasin;
+      background-color: lightblue;
       float: left;
       overflow: auto;
       border-top: 60px;
       border: 10px;
       margin: 10px;
       width: 30%;
+    }
+
+/*    IDs   */
+
+    #logo {
+      margin: 0 auto;
     }
