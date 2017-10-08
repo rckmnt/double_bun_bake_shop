@@ -31,6 +31,9 @@
       font-size: 20px;
       text-align: center;
     }
+    header #logo {
+      margin: 0 auto;
+    }
 
 /*    Menu    */
     header, nav{
@@ -53,24 +56,41 @@
       font-size: 1.4em;
     }
     .menu{
-      overflow: hidden;
+      border-top: 2px solid #000;
+      height: 25px;
+      border-bottom: 2px solid #000;
+
     }
     .menu a {
-      display: block;
       color: black;
       font-weight: bold;
       text-decoration: bold;
       text-align: center;
-      padding: 14px 16px;
       text-decoration: none;
+      padding: 0px 64px;
+      padding-top: 0px;
     }
     nav a:hover {
-      background-color: #ddd;
-      color: black;
+      background-color: #000;
+      color: #fff;
     }
 
-/* Classes */
+/* Body */
 
+    #bun_body{
+      display: inline-flex;
+    }
+    .our_story{
+      float: right;
+      width: 40%;
+      display: block;
+      padding:30px;
+    }
+    #shop_img{
+      width: 600px;
+      height: 450px;
+
+    }
     .bun_list {
       font-size: 12pt;
     }
@@ -89,8 +109,15 @@
       width: 30%;
     }
 
-/*    IDs   */
+/*    Footer   */
 
-    #logo {
-      margin: 0 auto;
+    #copyright{
+      margin: 50px auto;
+      border-top: 2px solid #000;
+      height: 25px;
+      color: black;
+      text-align: center;
+      padding: 0px 64px;
+      padding-top: 0px;
     }
+
