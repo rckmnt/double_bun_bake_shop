@@ -9,9 +9,6 @@
     child p - no comma
 */
 
-/*https://material.io/color/#!/?view.left=0&view.right=0&primary.color=424242&secondary.color=FBC02D*/
-
-
 
 /* Main html Tags */
     body {
@@ -30,36 +27,41 @@
       color: black;
     }
     a:hover{
-      color: white;
-      background-color:black;
+      color:white;
+      background-color: black;
     }
+    a:-webkit-any-link{
+      background-color: white;
+    }
+    img a:hover{
+      background-color: white;
+    }
+    h1 {
+      font-size: 1.4em;
+    }
+
+/*    Menu    */
+
     header{
       font-size: 20px;
       text-align: center;
     }
     header #logo {
       margin: 0 auto;
-    } 
-
-/*    Menu    */
+      text-decoration: none;
+    }
     header, nav{
       text-align: center;
       background: white;
       margin: 20px 0;
       padding: auto;
     }
+    header a:hover{
+      text-decoration: none;
+    }
     nav a {
-      /*text-decoration: underline;*/
       color: white;
       padding: 8px 20px;;
-    }
-    footer{
-      font-size: 0.8em;
-      margin: auto;
-      text-align: center;
-    }
-    h1 {
-      font-size: 1.4em;
     }
     .menu{
       border-top: 2px solid #000;
@@ -139,7 +141,9 @@
     }
 
 /*    Footer   */
+
     footer{
+      font-size: 12px;
       margin: 50px auto;
       border-top: 2px solid #000;
       height: 25px;
